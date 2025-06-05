@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --corfundo: rgb(200, 243, 253);
+    --corbotao: rgb(10, 22, 53);
+    --corletra: rgb(0, 35, 122);
+    --letraprincipal: Arial;
+    --letradetalhe: "Roboto Condensed", Verdana;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 244, 244);
+    margin: 5%;   
+}
+
+form {
+    background-color: var(--corfundo);
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 3px 5px 5px var(--corbotao);
+}
+
+#input-cidade {
+    height: 40px;
+    margin: 20px 0;
+    width: 250px;
+    border: solid 1px rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+    align-self: center;
+    padding: 5px;
+
+}
+
+#botao-pesquisa {
+    width: 70px;
+    height: 30px;
+    align-self: flex-end;
+    margin: 0 25px;
+    padding: 5px;
+    background-color: var(--corbotao);
+    color: rgb(245, 244, 244);
+}
+
+
+main {
+    font-family: var(--letraprincipal);
+    color: var(--corletra);
+    max-width: 300px;
+    background-color: var(--corfundo);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 10px 10px ;
+    box-shadow: 3px 5px 5px var(--corbotao);
+}
+
+#nome-cidade {
+    font-family: var(--letradetalhe);
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+
+
+#container-temperatura {
+    display: flex;
+    gap: 30px;
+}
+
+#imagem-tempo {
+    max-width: 100px;
+}
+
+#temperatura {
+    font-size: 2rem;
+
+}
+
+
