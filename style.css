@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --corfundo: rgb(200, 243, 253);
+    --corfundo: rgb(183, 238, 255);
     --corbotao: rgb(10, 22, 53);
     --corletra: rgb(0, 35, 122);
     --letraprincipal: Arial;
@@ -31,22 +31,28 @@ form {
 #input-cidade {
     height: 40px;
     margin: 20px 0;
-    width: 250px;
+    width: 240px;
     border: solid 1px rgba(0, 0, 0, 0.432);
-    border-radius: 5px;
+    border-radius: 8px;
     align-self: center;
     padding: 5px;
-
 }
 
 #botao-pesquisa {
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     align-self: flex-end;
-    margin: 0 25px;
+    margin: 0 25px 10px 25px;
     padding: 5px;
     background-color: var(--corbotao);
     color: rgb(245, 244, 244);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(10, 22, 53, 0.541);
+}
+
+#botao-pesquisa:active {
+    background-color: var(--corletra);
 }
 
 
@@ -67,22 +73,33 @@ main {
     font-family: var(--letradetalhe);
     font-weight: 500;
     font-size: 3rem;
+    margin: 10px;
 }
-
-
 
 #container-temperatura {
     display: flex;
-    gap: 30px;
+    gap: 5px;
+    align-items: center;
+    margin: 10px;
 }
 
 #imagem-tempo {
     max-width: 100px;
 }
 
+#status-temperatura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
 #temperatura {
     font-size: 2rem;
+}
 
+#porcentagem-chuva, #umidade, #vento{
+    margin: 10px;
 }
 
 

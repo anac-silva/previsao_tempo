@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +18,20 @@
         <button id="botao-pesquisa" type="submit">Procurar</button>
     </form>
     <main>
-        <h1 id="nome-cidade">cidade</h1>
+        <h1 id="nome-cidade"></h1>
         <div id="container-temperatura">
             <img src="images/Ensolarado.png" alt="Imagem do tempo" id="imagem-tempo">
-            <h2 id="temperatura">32°C</h2>
+            <div id="status-temperatura">
+                <h2 id="temperatura">32°C</h2>
+                <p id="tempo">Nublado</p>
+            </div>
             
         </div>
         <p id="porcentagem-chuva">25% de chance de chover</p>
-        <p id="tempo">Nublado</p>
+        
         <p id="umidade">60%</p>
         <p id="vento">4 Km/h</p>
     </main>
-
+    <script src="script.js"></script>
 </body>
 </html>
