@@ -51,6 +51,10 @@ form {
     box-shadow: 2px 2px 2px rgba(10, 22, 53, 0.541);
 }
 
+#pesquisa{
+    width: 8px;
+}
+
 #botao-pesquisa:active {
     background-color: var(--corletra);
 }
