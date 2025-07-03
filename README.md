@@ -32,6 +32,9 @@ Este projeto é uma aplicação web simples de **previsão do tempo**, que conso
 
 3. Abra o arquivo index.html no navegador.
 
+## 📷 Demonstração
+![previsao_do_tempo](https://github.com/user-attachments/assets/4b890dba-d66d-4742-a0be-16a14615b6e1)
+
 ## 📄 Licença
 Este projeto está sob a licença MIT.
 
