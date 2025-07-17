@@ -14,9 +14,12 @@
 }
 
 body {
-    background-color: rgb(245, 244, 244);
-    margin: 5%;   
-}
+    background-image: linear-gradient(to bottom, #3cc4f4, #66c2fd, #8bc0ff, #acbcff, #c8b9fb, #dfb3f0, #f1aee2, #ffabd1, #ffa8b7, #ffa99c, #ffaf84, #ecb773);
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-top: 80px;   
+    height: 100vh;
+}   
 
 form {
     background-color: var(--corfundo);
@@ -71,39 +74,43 @@ main {
     align-items: center;
     border-radius: 0 0 10px 10px ;
     box-shadow: 3px 5px 5px var(--corbotao);
+
 }
 
 #nome-cidade {
     font-family: var(--letradetalhe);
     font-weight: 500;
-    font-size: 3rem;
-    margin: 10px;
+    font-size: 2rem;
+    margin: 5px;
 }
 
 #container-temperatura {
     display: flex;
-    gap: 5px;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 #imagem-tempo {
-    max-width: 100px;
+    max-width: 80px;
 }
 
 #status-temperatura {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
+    margin: 10px;
 }
 
 #temperatura {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 #porcentagem-chuva, #umidade, #vento{
     margin: 10px;
+    max-width: 180px;
+
 }
 
-
+#vento{
+    padding-bottom: 20px;
+}
